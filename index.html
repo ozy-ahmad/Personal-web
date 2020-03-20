@@ -16,12 +16,7 @@
                 <p>21 AM</p>
                 <hr />
             </div>
-            <div>
-                <form class="example" action="action_page.php">
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-            </div>
+
 
             <nav>
                 <div class="container-header">
@@ -29,56 +24,88 @@
                         <a class="nav-list" href="#Home">Home</a>
                         <a class="nav-list" href="#Portfolio">Portfolio</a>
                         <a class="nav-list" href="#Blog">Blog</a>
-                        <a class="nav-list" href="#Podcast">Podcast</a>
+                        <a class="nav-list" href="#Podcasts">Podcasts</a>
                     </div>
                 </div>
             </nav>
+            <div>
+                <form class="example" action="action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
 
             <br>
 
-            <div class="container-picture">
-                <!-- <img class="img-header" src="/assets/img/Header-picture.jpg" alt="Header"> -->
-               <div class="tulisan">
-                <h1>Hello,</h1>
-                <h3>This is my personal website. <br>
-                    you can see some of my works on Portfolio <br>
-                    I write blog and podcasting as a hobby</h3>
-               </div> 
-            </div>
+
         </header>
         <br>
         <main>
+            <div class="container-picture">
+                <img class="img-header" src="/assets/img/rsz_header-picture.jpg" alt="Header">
+                <div class="tulisan">
+                    <h1>Hello,</h1>
+                    <h3>This is my personal website. <br>
+                        you can see some of my works on Portfolio <br>
+                        I write blog and podcasting as a hobby</h3>
+                </div>
+            </div>
             <article>
-                <section>
-                    <div class="img-content">
-                        <img src="/assets/img/Portfolio.jpg" alt="Portfolio">
-                    </div>
-                    <h4>Portfolio</h4>
-                    <p>Portfolio merupakan sarana untuk menampilkan beberapa project
-                        yang telah saya lakukan selama ini</p>
-                </section>
-                <section>
-                    <div class="img-content">
-                        <img src="/assets/img/Blog.jpg" alt="Blog">
-                    </div>
-                    <h4>Blog</h4>
-                    <p>Berisi tentang kisah yang menarik untuk saya ceritakan didalam blog
-                        perjalanan karir atau hanya sekadar sharing santai mengenai programing
-                        kreatif industri dll</p>
+                <div style="padding: 30px;">
+                    <span>
+                        <div class="img-content">
+                            <img src="/assets/img/Portfolio.jpg" alt="Portfolio">
+                        </div>
+                    </span>
+                    <span>
+                        <div id="Portfolio" class="content-text">
+                            <div>
+                                <h4>Portfolio</h4>
+                                <p>Portfolio merupakan sarana untuk menampilkan beberapa project
+                                    yang telah saya lakukan selama ini</p>
+                            </div>
+                        </div>
+                    </span>
+                    <div style="clear:both"></div>
 
-                </section>
-                <section>
-                    <div class="img-content">
-                        <img src="/assets/img/Podcast stereotype.jpeg" alt="Podcast stereotype">
-                    </div>
-                    <h4>Podcast</h4>
-                    <p>Podcast untuk berbagi cerita mengenai pengalaman terkait berbagai isu
-                        yang ada di masyarakat. Karena kami percaya setiap manusia memiliki kisah yang unik
-                        dan bisa membuka perspektif lain terhadap individu ataupun kelompok tertentu.
-                        oleh : @ozy_ahmad dan @ajengdinii . Kalian punya saran atau cerita yang ingin
-                        disampaikan? silakan Kontak: podcaststereotype@gmail.com twitter
-                        dan instagram: @podstereotype</p>
-                </section>
+                </div>
+                <div style="padding: 30px;">
+                    <span>
+                        <div class="img-content">
+                            <img src="/assets/img/blog.jpg" alt="Blog">
+                        </div>
+                    </span>
+                    <span>
+                        <div id="Blog" class="content-text">
+
+                            <h4>Blog</h4>
+                            <p>Berisi tentang kisah yang menarik untuk saya ceritakan didalam blog
+                                perjalanan karir atau hanya sekadar sharing santai mengenai programing
+                                kreatif industri dll</p>
+                        </div>
+                    </span>
+                    <div style="clear:both"></div>
+
+
+                </div>
+                <div style="padding: 30px;">
+                    <span>
+                        <div class="img-content">
+                            <img src="/assets/img/rsz_podcast_stereotype.jpg" alt="Podcast stereotype">
+                        </div>
+                    </span>
+                    <span>
+                        <div id="Podcasts" class="content-text">
+                            <h4>Podcast stereotype</h4>
+                            <p>Podcast untuk berbagi cerita mengenai pengalaman terkait berbagai isu
+                                yang ada di masyarakat. Karena kami percaya setiap manusia memiliki kisah yang unik
+                                dan bisa membuka perspektif lain terhadap individu ataupun kelompok tertentu.
+                                oleh : @ozy_ahmad dan @ajengdinii . Kalian punya saran atau cerita yang ingin
+                                disampaikan? silakan Kontak: podcaststereotype@gmail.com twitter
+                                dan instagram: @podstereotype</p>
+                        </div>
+                    </span>
+                </div>
             </article>
 
 
@@ -87,8 +114,16 @@
 
 
 </body>
+
+<br>
+<br>
+
+
+<div style="clear:both"></div>
+<hr />
+
 <footer>
-    Ahmad Fakhrozy 2020
+    &copy; Copyright 2020 by Ahmad Fakhrozy
 </footer>
 
 </html>

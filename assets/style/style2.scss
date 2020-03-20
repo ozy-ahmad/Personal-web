@@ -1,0 +1,37 @@
+* {
+    /* font-family: inherit; */
+    font-family: sans-serif, ;
+}
+
+.container {
+    margin: auto;
+    width: 1000px;
+}
+
+form.example {
+    input[type=text] {
+        padding: 3px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: right;
+        width: 17%;
+        background: #f1f1f1;
+    }
+
+    button {
+        float: right;
+        width: 3%;
+        padding: 3px;
+        background: #24282b;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+
+        
+    }
+    button:hover {
+        background: #24282b;
+    }
+}
