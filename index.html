@@ -1,129 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>21 AM</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/style/styles.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/style/styles.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header>
-            <div class="nama">
-                <p>21 AM</p>
-                <hr />
+      <header>
+        <div class="nama">
+          <p>21 AM</p>
+          <hr />
+        </div>
+
+        <nav>
+          <div class="container-header">
+            <div class="nav">
+              <a class="nav-list" href="#Home">Home</a>
+              <a class="nav-list" href="#Portfolio">Portfolio</a>
+              <a class="nav-list" href="#Blog">Blog</a>
+              <a class="nav-list" href="#Podcasts">Podcasts</a>
             </div>
+          </div>
+        </nav>
+        <div>
+          <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search" />
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
 
-
-            <nav>
-                <div class="container-header">
-                    <div class="nav">
-                        <a class="nav-list" href="#Home">Home</a>
-                        <a class="nav-list" href="#Portfolio">Portfolio</a>
-                        <a class="nav-list" href="#Blog">Blog</a>
-                        <a class="nav-list" href="#Podcasts">Podcasts</a>
-                    </div>
+        <br />
+      </header>
+      <br />
+      <main>
+        <div class="container-picture">
+          <img
+            class="img-header"
+            src="./assets/img/rsz_header-picture.jpg"
+            alt="Header"
+          />
+          <div class="tulisan">
+            <h1><strong>Hello,</strong></h1>
+            <h3>
+              I am a full stack web developer <br />
+              you can see some of my works on
+              <em><strong>Portfolio</strong></em> <br />
+              I write <em><strong>blog</strong></em> and
+              <em><strong>podcasting</strong></em> as a hobby
+            </h3>
+          </div>
+        </div>
+        <article>
+          <div style="padding: 30px;">
+            <span>
+              <div class="img-content">
+                <img src="./assets/img/Portfolio.jpg" alt="Portfolio" />
+              </div>
+            </span>
+            <span>
+              <div id="Portfolio" class="content-text">
+                <div>
+                  <h4>Portfolio</h4>
+                  <p>
+                    Portfolio merupakan sarana untuk menampilkan beberapa
+                    project yang telah saya lakukan selama ini
+                  </p>
                 </div>
-            </nav>
-            <div>
-                <form class="example" action="action_page.php">
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-            </div>
-
-            <br>
-
-
-        </header>
-        <br>
-        <main>
-            <div class="container-picture">
-                <img class="img-header" src="./assets/img/rsz_header-picture.jpg" alt="Header">
-                <div class="tulisan">
-                    <h1>Hello,</h1>
-                    <h3>This is my personal website. <br>
-                        you can see some of my works on Portfolio <br>
-                        I write blog and podcasting as a hobby</h3>
-                </div>
-            </div>
-            <article>
-                <div style="padding: 30px;">
-                    <span>
-                        <div class="img-content">
-                            <img src="./assets/img/Portfolio.jpg" alt="Portfolio">
-                        </div>
-                    </span>
-                    <span>
-                        <div id="Portfolio" class="content-text">
-                            <div>
-                                <h4>Portfolio</h4>
-                                <p>Portfolio merupakan sarana untuk menampilkan beberapa project
-                                    yang telah saya lakukan selama ini</p>
-                            </div>
-                        </div>
-                    </span>
-                    <div style="clear:both"></div>
-
-                </div>
-                <div style="padding: 30px;">
-                    <span>
-                        <div class="img-content">
-                            <img src="./assets/img/blog.jpg" alt="Blog">
-                        </div>
-                    </span>
-                    <span>
-                        <div id="Blog" class="content-text">
-
-                            <h4>Blog</h4>
-                            <p>Berisi tentang kisah yang menarik untuk saya ceritakan didalam blog
-                                perjalanan karir atau hanya sekadar sharing santai mengenai programing
-                                kreatif industri dll</p>
-                        </div>
-                    </span>
-                    <div style="clear:both"></div>
-
-
-                </div>
-                <div style="padding: 30px;">
-                    <span>
-                        <div class="img-content">
-                            <img src="./assets/img/rsz_podcast_stereotype.jpg" alt="Podcast stereotype">
-                        </div>
-                    </span>
-                    <span>
-                        <div id="Podcasts" class="content-text">
-                            <h4>Podcast stereotype</h4>
-                            <p>Podcast untuk berbagi cerita mengenai pengalaman terkait berbagai isu
-                                yang ada di masyarakat. Karena kami percaya setiap manusia memiliki kisah yang unik
-                                dan bisa membuka perspektif lain terhadap individu ataupun kelompok tertentu.
-                                oleh : @ozy_ahmad dan @ajengdinii . Kalian punya saran atau cerita yang ingin
-                                disampaikan? silakan Kontak: podcaststereotype@gmail.com twitter
-                                dan instagram: @podstereotype</p>
-                        </div>
-                    </span>
-                </div>
-            </article>
-
-
-        </main>
+              </div>
+            </span>
+            <div style="clear:both"></div>
+          </div>
+          <div style="padding: 30px;">
+            <span>
+              <div class="img-content">
+                <img src="./assets/img/blog.jpg" alt="Blog" />
+              </div>
+            </span>
+            <span>
+              <div id="Blog" class="content-text">
+                <h4>Blog</h4>
+                <p>
+                  Berisi tentang kisah yang menarik untuk saya ceritakan didalam
+                  blog perjalanan karir atau hanya sekadar sharing santai
+                  mengenai programing kreatif industri dll
+                </p>
+              </div>
+            </span>
+            <div style="clear:both"></div>
+          </div>
+          <div style="padding: 30px;">
+            <span>
+              <div class="img-content">
+                <a
+                  href="https://open.spotify.com/show/4XdXmGFxBBrVdnFNkhDFmP"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/img/rsz_podcast_stereotype.jpg"
+                    alt="Podcast stereotype"
+                  />
+                </a>
+              </div>
+            </span>
+            <span>
+              <div id="Podcasts" class="content-text">
+                <a
+                  href="https://open.spotify.com/show/4XdXmGFxBBrVdnFNkhDFmP"
+                  target="_blank"
+                >
+                  <h4>Podcast stereotype</h4>
+                </a>
+                <p>
+                  Podcast untuk berbagi cerita mengenai pengalaman terkait
+                  berbagai isu yang ada di masyarakat. Karena kami percaya
+                  setiap manusia memiliki kisah yang unik dan bisa membuka
+                  perspektif lain terhadap individu ataupun kelompok tertentu.
+                  oleh : @ozy_ahmad dan @ajengdinii . Kalian punya saran atau
+                  cerita yang ingin disampaikan? silakan Kontak:
+                  podcaststereotype@gmail.com twitter dan instagram:
+                  @podstereotype
+                </p>
+              </div>
+            </span>
+          </div>
+        </article>
+      </main>
     </div>
+  </body>
 
+  <br />
+  <br />
 
-</body>
+  <div style="clear:both"></div>
+  <hr />
 
-<br>
-<br>
-
-
-<div style="clear:both"></div>
-<hr />
-
-<footer>
+  <footer>
     &copy; Copyright 2020 by Ahmad Fakhrozy
-</footer>
-
+  </footer>
 </html>
