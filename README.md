@@ -1,5 +1,5 @@
 # Personal website
 
-## yang berisi portfolio. blog, dan website
+## yang berisi portfolio. blog, dan podcasts
 
-### css masih berantakan
+### belum berfungsi optimal

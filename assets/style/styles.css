@@ -1,6 +1,6 @@
 * {
   /* font-family: inherit; */
-  font-family: sans-serif, ;
+  font-family: sans-serif;
 }
 
 hr {
@@ -41,7 +41,6 @@ hr {
   color: white;
   top: -6%;
   padding: 80px;
-
 }
 
 .tulisan h1 h3 {
@@ -60,7 +59,6 @@ hr {
   min-width: 980px;
   width: 993.01px;
   font-size: 0.9em;
-
 }
 
 .nav-list {
@@ -75,11 +73,7 @@ hr {
   justify-content: space-evenly;
   align-items: center;
   text-decoration-color: black;
-
-
 }
-
-
 
 /*  .hr { 
 position: static
@@ -108,7 +102,7 @@ transform: rotate(0.23deg)
   box-sizing: border-box;
 }
 
-form.example input[type=text] {
+form.example input[type="text"] {
   padding: 3px;
   font-size: 17px;
   border: 1px solid grey;
@@ -154,7 +148,17 @@ form.example::after {
 .content-text {
   margin-top: -12px;
   margin-left: 36%;
- 
+}
+
+.content-text .submit {
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: white;
+  padding: 12px 227px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 a {
@@ -173,8 +177,13 @@ p {
   letter-spacing: 0.1em;
 }
 
+label {
+  letter-spacing: 0.1em;
+}
 footer {
   margin: auto;
   width: 1000px;
   text-align: center;
 }
+
+
